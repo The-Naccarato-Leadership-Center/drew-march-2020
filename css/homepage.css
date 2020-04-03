@@ -130,7 +130,7 @@ header.masthead .intro-text .intro-heading {
 }
 
 #portfolio * {
-  z-index: 2;
+  z-index: 0;
 }
 
 @media (min-width: 767px) {
