@@ -43,6 +43,31 @@ $(function(){
   /*$("#navbar").load("/pages/navbar.html");*/
   $(".footer").load("/pages/footer.html"); 
 });
+
+//Try to fix this counter function..it wasn't working at work
+$('.counter').each(function() {
+  var $this = $(this),
+      countTo = $this.attr('data-count');
+  $({ countNum: $this.text()}).animate({
+    countNum: countTo
+  },
+
+  {
+
+    duration: 8000,
+    easing:'linear',
+    step: function() {
+      $this.text(Math.floor(this.countNum));
+    },
+    complete: function() {
+      $this.text(this.countNum);
+      //alert('finished');
+    }
+
+  });  
+});
+
+
 })(jQuery); // End of use strict
 
 
