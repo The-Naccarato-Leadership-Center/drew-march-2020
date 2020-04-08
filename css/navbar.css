@@ -89,12 +89,12 @@ img::-moz-selection {
 }
 
 .btn-primary {
-  background-color: grey;
+  background-color: #5C6D62;
   border-color: #212529;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: darkgrey !important;
+  background-color: #8B978F !important;https://www.rpchiro.com/coaching/coaching.php
   border-color: #212529 !important;
   color: white;
 }
@@ -237,12 +237,12 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 /*This is for the countdown clock*/
 
 #clockdiv{
-  font-family: sans-serif;
+  font-family: inherit;
   color: #fff;
   display: inline-block;
-  font-weight: 100;
+  /*font-weight: 100;*/
   text-align: center;
-  font-size: 30px;
+  /*font-size: 30px;*/
 }
 
 #clockdiv > div{
