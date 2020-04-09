@@ -111,19 +111,6 @@
   <!-- Upcoming Seminars Section -->
   <div class="tab-pane container active" id="UpcomingSeminars">
     <div class="card-deck">
-      
-      <div class="card my-5" style="width: 18rem;">
-        <img src="/img/DSC04102__01.jpg" class="card-img-top" alt="">
-        <div class="card-body">
-          <h4 class="card-title text-center">March 24th, 2020</h4>
-          <h6 class="card-subtitle mb-2 text-muted text-center">2 Hour Seminar</h6>
-          <p class="card-text">Santa Barbara, CA<br>7 pm - 9 pm</p>
-          <div class="text-center">
-            <a href="#signup" class="btn btn-primary js-scroll-trigger">Sign Up</a>
-            <a href="http://www.rpchiro.com/seminars/Santa_Barbara_Practice_Building+Testimonies.pdf" target="_blank" class="card-link btn btn-primary">Learn More</a>
-          </div>
-        </div>
-      </div>
 
       <div class="card my-5" style="width: 18rem;">
         <img src="/img/DSC04102__01.jpg" class="card-img-top" alt="">
@@ -150,9 +137,7 @@
           </div>
         </div>
       </div>
-    </div>
 
-    <div class="card-deck">
       <div class="card my-5" style="width: 18rem;">
         <img src="/img/DSC04102__01.jpg" class="card-img-top" alt="">
         <div class="card-body">
@@ -165,6 +150,10 @@
           </div>
         </div>
       </div>
+
+    </div>
+    <div class="card-deck" style="">
+
 
       <div class="card my-5" style="width: 18rem;">
         <img src="/img/DSC04102__01.jpg" class="card-img-top" alt="">
@@ -179,10 +168,15 @@
         </div>
       </div>
 
+      <!-- Empty card for odd amount of seminars -->
+      <div class="card" style="border-style: none; padding: 0px -400px;">
+      </div>
+
+
       <div class="card my-5" style="width: 18rem;">
         <img src="/img/DSC04102__01.jpg" class="card-img-top" alt="">
         <div class="card-body">
-          <h4 class="card-title text-center">March 24th, 2020</h4>
+          <h4 class="card-title text-center">September 19th, 2020</h4>
           <h6 class="card-subtitle mb-2 text-muted text-center">Internal Marketing (8 CE's)</h6>
           <p class="card-text">South Lake Tahoe, CA<br>8 am - 2 pm</p>
           <div class="text-center">
@@ -191,6 +185,7 @@
           </div>
         </div>
       </div>
+
 
     </div>
   </div>
@@ -376,21 +371,38 @@
             <div class="row">
               <div class="col-md-6">
                 <div class="form-group">
-                  <input class="form-control" id="name" type="text" placeholder="Your Name *" required="required" data-validation-required-message="Please enter your name.">
+                  <input class="form-control" id="name" type="text" placeholder="Name *" required="required" data-validation-required-message="Please enter your name.">
                   <p class="help-block text-danger"></p>
                 </div>
                 <div class="form-group">
-                  <input class="form-control" id="email" type="email" placeholder="Your Email *" required="required" data-validation-required-message="Please enter your email address.">
+                  <input class="form-control" id="email" type="email" placeholder="Email *" required="required" data-validation-required-message="Please enter your email address.">
                   <p class="help-block text-danger"></p>
                 </div>
                 <div class="form-group">
-                  <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" required="required" data-validation-required-message="Please enter your phone number.">
+                  <input class="form-control" id="phone" type="tel" placeholder="Phone *" required="required" data-validation-required-message="Please enter your phone number.">
                   <p class="help-block text-danger"></p>
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="form-group">
-                  <textarea class="form-control" id="message" placeholder="Seminar(s) you are signing up for *" required="required" data-validation-required-message="Please enter a seminar."></textarea>
+
+                  <input type="checkbox" class="form-check-input">
+                  <label class="form-check-label text-white">May 16th in South Lake Tahoe, CA</label>
+                  <br>
+                  <input type="checkbox" class="form-check-input">
+                  <label class="form-check-label text-white">June 24th in San Fernando, CA</label>
+                  <br>
+                  <input type="checkbox" class="form-check-input">
+                  <label class="form-check-label text-white">July 21st in San Bernardino, CA</label>
+                  <br>
+                  <input type="checkbox" class="form-check-input">
+                  <label class="form-check-label text-white">August 18th in Utah</label>
+                  <br>
+                  <input type="checkbox" class="form-check-input">
+                  <label class="form-check-label text-white">September 19th in South Lake Tahoe, CA</label>
+
+                  <!-- <textarea class="form-control" id="message" placeholder="Seminar(s) you are signing up for *" required="required" data-validation-required-message="Please enter a seminar."></textarea> -->
+
                   <p class="help-block text-danger"></p>
                 </div>
               </div>
