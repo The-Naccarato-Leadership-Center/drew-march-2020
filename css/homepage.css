@@ -7,7 +7,7 @@
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/SuccessTeaching-3.jpg");
+  background-image: url("../img/SuccessTeaching-22.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -43,7 +43,7 @@ header.masthead .intro-text .intro-heading {
   header.masthead .intro-text .intro-lead-in {
     font-size: 40px;
     line-height: 40px;
-    margin-top: 50px;
+    margin-top: -50px;
     margin-bottom: -50px;
     margin-left: 140px;
     margin-right: -100px;
